@@ -1,0 +1,18 @@
+.registrationPage {
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+p {
+    margin-bottom: 5px;
+}
+
+p.error {
+    color:red;
+    font-family: monospace;
+}

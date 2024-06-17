@@ -1,13 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .intro {
+    @apply flex-grow text-left m-auto max-md:w-fit w-1/2 rounded-lg shadow-slate-100 max-md:px-3 px-10 py-5 mt-2;
+  }
+
+  .card {
+    @apply rounded-lg h-80 ring-1 ring-slate-900 mt-2 w-[200px];
+  }
+  .reviews {
+    @apply flex flex-col text-left ring-1 ring-slate-500 p-4 w-[20%];
+     
+  }
+ }
+
+html,
+body,
+#app,
+#app > div {
+  height: 100%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 33%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  border: 1px solid grey;
+  height: 35px;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+label {
+  color: rgb(3, 3, 31);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p.error {
+  color:red;
+  font-family: monospace;
+}
+
+

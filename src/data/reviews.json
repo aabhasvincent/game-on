@@ -1,0 +1,49 @@
+{
+  "reviews": [
+    {
+      "userName": "Ashutosh",
+      "review": "Nice experience",
+      "rating": 4
+    },
+    {
+      "userName": "Zeeshan",
+      "review": "Had an amazing time",
+      "rating": 5
+    },
+    {
+      "userName": "Priyal",
+      "review": "Best gaming cafe in the town. Good services, good food.",
+      "rating": 5
+    },
+    {
+      "userName": "Swati",
+      "review": "My first two free hours got me hooked to gaming. Full paisa vasool.",
+      "rating": 4
+    },
+    {
+      "userName": "Neel",
+      "review": "Amazing experience, top notch hardware, amazing games.",
+      "rating": 4
+    },
+    {
+      "userName": "Dhruv",
+      "review": "Regularly visit the cafe! There shold be some sort of membership system for regular players.",
+      "rating": 3
+    },
+    {
+      "userName": "Sakshi",
+      "review": "Good vibe, good food, best experience.",
+      "rating": 4
+    },
+    {
+      "userName": "Srthak",
+      "review": "Wish I had a similar cafe in my locality.",
+      "rating": 4
+    },
+    {
+      "userName": "Brim",
+      "review": "Feels like home.",
+      "rating": 5
+    }
+  ]
+}
